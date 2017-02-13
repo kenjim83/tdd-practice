@@ -1,0 +1,16 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "practicing unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: run npm test from inside the challenge directories or do 'npm run test-all'\" && exit 1",
+    "test-all": "node ./node_modules/mocha/bin/mocha */test.js"
+  },
+  "author": "kenjim83@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "sinon": "^1.15.3"
+  }
+}
